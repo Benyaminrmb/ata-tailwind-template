@@ -2,3 +2,21 @@
 @import './icon/solid.css';
 @import './icon/light.css';
 @import './icon/fontawesome.css';
+@import './font.css';
+body {
+  direction: rtl;
+  font-family: IRANSansX, sans-serif;
+}
+.menu.has-border {
+  li {
+    &.active {
+      @apply relative flex;
+      &::after {
+        content: '';
+        @apply absolute bg-primary rounded-full;
+        @apply top-0 right-0 left-auto w-[2px] h-1/2 translate-x-0 translate-y-1/2;
+        @apply lg:bottom-0 lg:w-1/2 lg:h-[2px] lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:top-auto;
+      }
+    }
+  }
+}
