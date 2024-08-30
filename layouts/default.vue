@@ -1,10 +1,13 @@
 <template>
   <div class="drawer flex flex-wrap w-full">
-    <input id="my-drawer" class="drawer-toggle" type="checkbox" />
-    <div class="drawer-content w-full">
-      <div class="flex flex-wrap w-full">
-        <main-header-main />
-        <div class="flex flex-1 h-full flex-wrap w-full grow">
+    <input id="my-drawer" class="drawer-toggle peer" type="checkbox" />
+    <div class="drawer-content w-full peer-checked:-translate-x-14 transition ease-out">
+      <div class="flex flex-wrap w-full gap-6">
+        <div class="flex flex-wrap w-full container mx-auto gap-6 px-3">
+          <main-header-navbar />
+          <main-header-breadcrumb />
+        </div>
+        <div class="flex h-full flex-wrap w-full grow container mx-auto">
           <slot />
         </div>
         <main-footer-main />

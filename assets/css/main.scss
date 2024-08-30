@@ -6,6 +6,15 @@
 body {
   direction: rtl;
   font-family: IRANSansX, sans-serif;
+  background: linear-gradient(90deg, #f7f9fa 0%, #dce3ec 100%);
+  @apply h-screen;
+}
+.dir-rtl {
+  direction: rtl;
+}
+
+.dir-ltr {
+  direction: ltr;
 }
 .menu.has-border {
   li {
@@ -16,6 +25,16 @@ body {
         @apply absolute bg-primary rounded-full;
         @apply top-0 right-0 left-auto w-[2px] h-1/2 translate-x-0 translate-y-1/2;
         @apply lg:bottom-0 lg:w-1/2 lg:h-[2px] lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:top-auto;
+      }
+    }
+  }
+}
+.breadcrumbs {
+  ul {
+    li {
+      @apply text-secondary/80;
+      &.active {
+        @apply text-secondary;
       }
     }
   }

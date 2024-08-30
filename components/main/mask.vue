@@ -4,7 +4,7 @@
 
 <script setup>
 // Import necessary Vue features
-import { computed, defineProps } from 'vue'
+import { computed } from 'vue'
 
 // Define props using defineProps()
 const props = defineProps({
