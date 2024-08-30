@@ -24,8 +24,7 @@
           <span class="lg:flex hidden">جستجو</span>
         </a>
 
-        <div
-          class="hidden lg:flex h-1/3 w-[2px] items-center justify-center bg-secondary rounded-full"></div>
+        <div class="divider-2"></div>
         <a class="btn btn-ghost">
           <main-mask :active="true" active-color="text-secondary" icon="user" />
           <span class="lg:flex hidden"> پنل کاربری </span>

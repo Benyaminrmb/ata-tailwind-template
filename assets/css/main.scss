@@ -39,3 +39,10 @@ body {
     }
   }
 }
+.btn {
+  @apply rounded-2xl;
+}
+.divider-2 {
+  @apply hidden lg:flex h-1/3 w-[2px] items-center justify-center bg-secondary rounded-full;
+}
+

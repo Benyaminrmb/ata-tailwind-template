@@ -12,7 +12,7 @@
         <div
           class="flex flex-wrap w-full container relative mx-auto gap-6 px-3">
           <main-header-navbar />
-          <main-header-breadcrumb />
+          <main-header-breadcrumb :is-breadcrumb="false"/>
         </div>
         <div
           class="flex h-full relative flex-wrap w-full grow container mx-auto">
