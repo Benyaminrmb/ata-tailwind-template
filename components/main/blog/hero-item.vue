@@ -1,5 +1,6 @@
 <template>
-  <div class="flex flex-wrap lg:grid grid-cols-6 w-full bg-white rounded-2xl mb-3">
+  <div
+    class="flex flex-wrap lg:grid grid-cols-6 w-full bg-white rounded-2xl mb-3">
     <div class="flex w-full col-span-3">
       <img class="w-full flex rounded-2xl" src="/img.png" alt="awd" />
     </div>
@@ -35,7 +36,7 @@
       </div>
 
       <div
-        class="flex absolute lg:relative bottom-0 translate-y-5 lg:translate-y-0 flex-col w-full items-center lg:items-end">
+        class="flex absolute lg:relative bottom-0 left-0 translate-y-5 lg:translate-y-0 flex-col w-full items-center lg:items-end">
         <div class="flex gap-6">
           <arrow-button disabled angle="right" />
           <arrow-button angle="left" />

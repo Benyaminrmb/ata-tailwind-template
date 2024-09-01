@@ -3,6 +3,9 @@
 @import './icon/light.css';
 @import './icon/fontawesome.css';
 @import './font.css';
+.custom-gradient{
+  background: linear-gradient(90deg, #f7f9fa 0%, #dce3ec 100%);
+}
 body {
   direction: rtl;
   font-family: 'IRANSansXFaNum', IRANSansX, sans-serif;

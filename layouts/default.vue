@@ -1,36 +1,43 @@
 <template>
-  <div
-    class="flex flex-wrap w-full overflow-hidden container relative mx-auto px-3">
-    <main-header-navbar />
-    <div class="drawer !h-full flex flex-wrap w-full">
+  <div class="flex flex-col h-screen">
+    <main-header-navbar
+      class="flex-shrink-0 sticky top-0 z-10 custom-gradient" />
+    <div class="flex-grow flex">
       <input id="my-drawer" class="drawer-toggle peer" type="checkbox" />
 
       <div
-        class="drawer-content !h-full w-full peer-checked:-translate-x-14 transition ease-out">
-        <div class="flex mt-6 flex-wrap w-full gap-6 z-0 relative">
-          <img
-            alt="bubble"
-            class="absolute right-0 top-32 -z-10 w-60"
-            src="/circle.svg" />
+        class="drawer-content flex-grow h-full transition-transform ease-out peer-checked:-translate-x-14">
+        <div class="min-h-full flex flex-col">
+          <div class="container mx-auto px-3 py-6 flex-grow">
+            <div class="relative">
+              <img
+                alt="bubble"
+                class="absolute right-0 top-32 -z-10 w-60"
+                src="/circle.svg" />
 
-          <main-header-breadcrumb :is-breadcrumb="false" />
+              <main-header-breadcrumb :is-breadcrumb="false" />
 
-          <div class="flex h-full relative flex-wrap w-full grow">
-            <slot />
+              <div class="mt-6">
+                <slot />
+              </div>
+            </div>
           </div>
-          <main-footer-main />
+          <main-footer-main class="mt-auto" />
         </div>
       </div>
-      <div class="drawer-side !h-full top-auto">
+
+      <div class="drawer-side fixed inset-y-0 right-0">
         <label
           aria-label="close sidebar"
           class="drawer-overlay"
           for="my-drawer"></label>
-        <div class="bg-secondary text-secondary-content min-h-full w-80 p-4">
+        <div
+          class="bg-secondary text-secondary-content h-full w-80 p-4 overflow-y-auto">
           <main-header-menu-ul class="has-border menu-lg" />
         </div>
       </div>
     </div>
   </div>
 </template>
+
 <script lang="ts" setup></script>
