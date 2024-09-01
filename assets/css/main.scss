@@ -6,11 +6,14 @@
 .custom-gradient{
   background: linear-gradient(90deg, #f7f9fa 0%, #dce3ec 100%);
 }
+.default-blog-img-height{
+  @apply h-[284px];
+}
 body {
   direction: rtl;
   font-family: 'IRANSansXFaNum', IRANSansX, sans-serif;
   background: linear-gradient(90deg, #f7f9fa 0%, #dce3ec 100%);
-  @apply h-screen;
+  @apply h-full;
 }
 .dir-rtl {
   direction: rtl;

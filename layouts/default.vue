@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col h-screen">
+  <div class="flex flex-col h-full">
     <main-header-navbar
-      class="flex-shrink-0 sticky top-0 z-10 custom-gradient" />
-    <div class="flex-grow flex">
+      class="flex-shrink-0 sticky top-0 z-10 custom-gradient lg:container lg:mx-auto lg:px-3" />
+    <div class="flex-grow flex overflow-hidden">
       <input id="my-drawer" class="drawer-toggle peer" type="checkbox" />
 
       <div
@@ -32,7 +32,7 @@
           class="drawer-overlay"
           for="my-drawer"></label>
         <div
-          class="bg-secondary text-secondary-content h-full w-80 p-4 overflow-y-auto">
+          class="bg-secondary pt-[4.5rem] text-secondary-content h-full w-80 p-4 overflow-y-auto">
           <main-header-menu-ul class="has-border menu-lg" />
         </div>
       </div>
