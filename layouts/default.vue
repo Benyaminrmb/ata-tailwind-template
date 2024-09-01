@@ -15,8 +15,8 @@
           <main-header-breadcrumb :is-breadcrumb="false"/>
         </div>
         <div
-          class="flex h-full relative flex-wrap w-full grow container mx-auto">
-          <span>ddd </span>
+          class="flex h-full relative flex-wrap w-full grow container mx-auto px-3">
+
           <slot />
         </div>
         <main-footer-main />

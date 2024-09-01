@@ -5,7 +5,7 @@
 @import './font.css';
 body {
   direction: rtl;
-  font-family: IRANSansX, sans-serif;
+  font-family: 'IRANSansXFaNum', IRANSansX, sans-serif;
   background: linear-gradient(90deg, #f7f9fa 0%, #dce3ec 100%);
   @apply h-screen;
 }
@@ -45,4 +45,3 @@ body {
 .divider-2 {
   @apply hidden lg:flex h-1/3 w-[2px] items-center justify-center bg-secondary rounded-full;
 }
-

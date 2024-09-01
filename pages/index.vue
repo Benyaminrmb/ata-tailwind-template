@@ -1,7 +1,7 @@
 <template>
-<div class="btn btn-primary">
-  awd2
-</div>
+  <div class="flex flex-wrap w-full">
+   <main-blog-hero-item/>
+  </div>
 </template>
 <script>
 // For Nuxt Bridge
