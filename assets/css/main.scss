@@ -3,10 +3,10 @@
 @import './icon/light.css';
 @import './icon/fontawesome.css';
 @import './font.css';
-.custom-gradient{
+.custom-gradient {
   background: linear-gradient(90deg, #f7f9fa 0%, #dce3ec 100%);
 }
-.default-blog-img-height{
+.default-blog-img-height {
   .default-blog-img-height {
     @apply 2xl:h-[284px];
     @apply xl:h-[256px];
@@ -14,6 +14,20 @@
     @apply md:h-[200px];
     @apply sm:h-[172px];
     @apply h-[144px];
+  }
+}
+.primary-gradient {
+  background: linear-gradient(180deg, #ff5252 0%, #da0100 100%);
+}
+.default-banner-img-height {
+  @apply 2xl:h-[460px] xl:h-[400px] lg:h-[350px] md:h-[300px] sm:h-[250px] h-[352px];
+}
+.tabs-dark {
+  .tab {
+    &.tab-active {
+      @apply border-white #{!important};
+    }
+    @apply text-white;
   }
 }
 body {

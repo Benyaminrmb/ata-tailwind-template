@@ -3,7 +3,7 @@
     <div class="grid grid-cols-2 lg:grid-cols-4 w-full gap-3 lg:gap-6 relative">
       <span
         class="absolute left-0 h-full flex -translate-x-3 items-center z-10">
-        <arrow-button color="bg-gray-800" class="bg-gray-800" angle="left" />
+        <arrow-button color="bg-gray-800" class="bg-gray-800" icon="angle-left" />
       </span>
       <div
         v-for="blog in blogs"
@@ -20,7 +20,7 @@
       </div>
       <span
         class="absolute right-0 h-full flex translate-x-3 items-center z-10">
-        <arrow-button color="bg-gray-800" class="bg-gray-800" angle="right" />
+        <arrow-button color="bg-gray-800" class="bg-gray-800" icon="angle-right" />
       </span>
     </div>
   </div>
