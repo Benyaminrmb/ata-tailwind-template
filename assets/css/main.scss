@@ -7,7 +7,14 @@
   background: linear-gradient(90deg, #f7f9fa 0%, #dce3ec 100%);
 }
 .default-blog-img-height{
-  @apply h-[284px];
+  .default-blog-img-height {
+    @apply 2xl:h-[284px];
+    @apply xl:h-[256px];
+    @apply lg:h-[228px];
+    @apply md:h-[200px];
+    @apply sm:h-[172px];
+    @apply h-[144px];
+  }
 }
 body {
   direction: rtl;
