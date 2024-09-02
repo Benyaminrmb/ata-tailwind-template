@@ -8,14 +8,14 @@
       <div
         class="drawer-content flex-grow h-full transition-transform ease-out peer-checked:-translate-x-14">
         <div class="min-h-full flex flex-col">
-          <div class="container mx-auto px-3 py-6 flex-grow">
+          <div class="py-6 flex-grow">
             <div class="relative">
               <img
                 alt="bubble"
                 class="absolute right-0 top-32 -z-10 w-60"
                 src="/circle.svg" />
 
-              <main-header-breadcrumb :is-breadcrumb="false" />
+              <main-header-breadcrumb class="container mx-auto px-3 " :is-breadcrumb="false" />
 
               <div class="mt-6">
                 <slot />
