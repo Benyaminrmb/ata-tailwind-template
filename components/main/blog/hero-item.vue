@@ -2,7 +2,7 @@
   <div
     class="flex flex-wrap lg:grid grid-cols-6 w-full bg-white rounded-2xl mb-8 lg:mb-6">
     <div class="flex w-full col-span-3">
-      <img class="w-full flex rounded-2xl" src="/img.png" alt="awd" />
+      <img class="w-full flex rounded-2xl object-cover" src="/img.png" alt="awd" />
     </div>
     <div
       class="flex w-full flex-wrap flex-col gap-3 lg:gap-6 col-span-3 p-5 pb-9 lg:pb-8 lg:p-8 relative">

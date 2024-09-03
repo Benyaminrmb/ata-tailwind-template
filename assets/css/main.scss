@@ -20,7 +20,7 @@
   background: linear-gradient(180deg, #ff5252 0%, #da0100 100%);
 }
 .default-banner-img-height {
-  @apply 2xl:h-[460px] xl:h-[400px] lg:h-[350px] md:h-[300px] sm:h-[250px] h-[352px];
+  @apply 2xl:h-[460px] xl:h-[400px] lg:h-[290px] md:h-[370px] sm:h-[380px] h-[313px];
 }
 .tabs-dark {
   .tab {
@@ -35,6 +35,8 @@ body {
   font-family: 'IRANSansXFaNum', IRANSansX, sans-serif;
   background: linear-gradient(90deg, #f7f9fa 0%, #dce3ec 100%);
   @apply h-full;
+
+  scroll-behavior: smooth;
 }
 .dir-rtl {
   direction: rtl;

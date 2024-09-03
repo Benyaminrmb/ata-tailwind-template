@@ -8,7 +8,7 @@
       <div
         v-for="blog in blogs"
         class="flex hover:shadow-lg hover:scale-105 transition ease-out flex-wrap w-full default-blog-img-height relative rounded-2xl overflow-hidden">
-        <img :src="blog.img" alt="wdawd" class="w-full h-full flex" />
+        <img :src="blog.img" alt="wdawd" class="w-full object-cover h-full flex" />
         <div class="absolute w-full h-full top-0 left-0">
           <div
             class="flex w-full h-full items-end p-4 transition ease-out from-black/50 to-30% to-transparent bg-gradient-to-t">

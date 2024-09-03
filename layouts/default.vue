@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col h-full">
     <main-header-navbar
-      class="flex-shrink-0 sticky top-0 z-10 custom-gradient lg:container lg:mx-auto lg:px-3" />
+      class="flex-shrink-0 sticky top-0 z-10 custom-gradient " />
     <div class="flex-grow flex overflow-hidden">
       <input id="my-drawer" class="drawer-toggle peer" type="checkbox" />
 
