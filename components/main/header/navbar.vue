@@ -1,5 +1,8 @@
 <template>
-  <div class="navbar px-0">
+  <div class="z-50 px-0">
+    <div class="navbar w-full lg:container lg:mx-auto lg:px-3">
+
+
     <div class="navbar-start">
       <main-header-logo-link class="hidden lg:flex" />
       <label class="btn btn-ghost drawer-button lg:hidden" for="my-drawer">
@@ -30,6 +33,7 @@
           <span class="lg:flex hidden"> پنل کاربری </span>
         </a>
       </div>
+    </div>
     </div>
   </div>
 </template>
