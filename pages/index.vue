@@ -13,7 +13,7 @@
         <title-bar icon="loader" title="رویداد های حوزه ورزش و تناسب اندام" />
         <div
           class="flex gap-2 items-center flex-1 justify-end whitespace-nowrap">
-         awdawd
+          <arrow-link text="textawdawd awd " icon="angle-left"/>
         </div>
       </div>
     </div>
@@ -24,4 +24,5 @@
 <script setup lang="ts">
 
 import TitleBar from '~/components/main/title-bar.vue'
+import ArrowLink from '~/components/arrow-link.vue'
 </script>

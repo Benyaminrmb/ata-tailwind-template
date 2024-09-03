@@ -8,7 +8,7 @@ export default {
                 dddd: {
                     "primary": "#da0d0c",
                     "secondary": "#2C343D",
-                    "accent": "#37cdbe",
+                    "accent": "#DA0100",
                     "neutral": "#3d4451",
                     "base-100": "#ffffff",
                 },
