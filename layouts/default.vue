@@ -15,7 +15,7 @@
                 class="absolute right-0 top-32 -z-10 w-60"
                 src="/circle.svg" />
 
-              <main-header-breadcrumb class="container mx-auto px-3 " :is-breadcrumb="false" />
+              <main-header-breadcrumb class="container mx-auto" :is-breadcrumb="false" />
 
               <div class="mt-6">
                 <slot />

@@ -1,6 +1,6 @@
 <template>
   <a class="flex gap-3 items-center cursor-pointer">
-    <span class="text-accent">
+    <span class="text-accent text-sm">
       {{ text }}
     </span>
     <span

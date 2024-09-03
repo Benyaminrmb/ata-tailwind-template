@@ -4,38 +4,38 @@
 
 <script setup>
 // Import necessary Vue features
-import { computed } from 'vue'
+import {computed} from 'vue'
 
 // Define props using defineProps()
 const props = defineProps({
   icon: {
     type: String,
-    required: true
+    required: true,
   },
   active: {
     type: Boolean,
     required: false,
-    default: null
+    default: null,
   },
   s: {
     type: [String, Number],
     required: false,
-    default: 5
+    default: 5,
   },
   fontType: {
     type: String,
     required: false,
-    default: 'fal'
+    default: 'fal',
   },
   color: {
     type: String,
     required: false,
-    default: null
+    default: null,
   },
   activeColor: {
     type: String,
-    required: false
-  }
+    required: false,
+  },
 })
 
 // Computed properties

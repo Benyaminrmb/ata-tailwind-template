@@ -1,6 +1,6 @@
 <template>
   <div class="z-50 px-0">
-    <div class="navbar w-full lg:container lg:mx-auto lg:px-3">
+    <div class="navbar w-full lg:container lg:mx-auto">
 
 
     <div class="navbar-start">

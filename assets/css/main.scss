@@ -18,6 +18,13 @@
 }
 .primary-gradient {
   background: linear-gradient(180deg, #ff5252 0%, #da0100 100%);
+
+}
+.rounded-cut {
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 100%, 0 100%);
+}
+.cut-corner {
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 100%);
 }
 .default-banner-img-height {
   @apply 2xl:h-[460px] xl:h-[400px] lg:h-[290px] md:h-[370px] sm:h-[380px] h-[313px];

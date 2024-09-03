@@ -3,29 +3,28 @@
     <div class="grid grid-cols-2 lg:grid-cols-4 w-full gap-3 lg:gap-6 relative">
       <span
         class="absolute left-0 h-full flex -translate-x-3 items-center z-10">
-        <arrow-button color="bg-gray-800" class="bg-gray-800" icon="angle-left" />
+        <arrow-button
+          color="bg-gray-800"
+          class="bg-gray-800"
+          icon="angle-left" />
       </span>
-      <div
-        v-for="blog in blogs"
-        class="flex hover:shadow-lg hover:scale-105 transition ease-out flex-wrap w-full default-blog-img-height relative rounded-2xl overflow-hidden">
-        <img :src="blog.img" alt="wdawd" class="w-full object-cover h-full flex" />
-        <div class="absolute w-full h-full top-0 left-0">
-          <div
-            class="flex w-full h-full items-end p-4 transition ease-out from-black/50 to-30% to-transparent bg-gradient-to-t">
-            <h2 class="font-modam self-end text-white lg:text-xl">
-              {{ blog.title }}
-            </h2>
-          </div>
-        </div>
-      </div>
+      <scrollable-item
+        :title="blog.title"
+        :img="blog.img"
+        v-for="blog in blogs" />
       <span
         class="absolute right-0 h-full flex translate-x-3 items-center z-10">
-        <arrow-button color="bg-gray-800" class="bg-gray-800" icon="angle-right" />
+        <arrow-button
+          color="bg-gray-800"
+          class="bg-gray-800"
+          icon="angle-right" />
       </span>
     </div>
   </div>
 </template>
 <script setup lang="ts">
+import ScrollableItem from '~/components/main/blog/scrollable-item.vue'
+
 const blogs = [
   {
     img: '/blog/img.png',
