@@ -2,7 +2,7 @@
   <div class="flex flex-wrap w-full bg-gray-700 p-12">
     <div class="flex flex-wrap w-full container mx-auto md:px-3 gap-12">
       <div class="flex flex-wrap w-full gap-2 items-center justify-between">
-        <title-bar icon="loader" title="رویداد های حوزه ورزش و تناسب اندام" />
+        <title-bar color="text-white" icon="loader" title="رویداد های حوزه ورزش و تناسب اندام" />
         <div
           class="flex w-full gap-2 items-center flex-1 justify-end whitespace-nowrap">
           <main-tab-select />
