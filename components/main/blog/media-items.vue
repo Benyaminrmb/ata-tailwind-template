@@ -55,16 +55,19 @@
         <div
           v-for="i in 5"
           class="grid self-start grid-cols-6 gap-2 w-full bg-white rounded-2xl shadow-md p-3">
-          <div class="flex col-span-2 w-full size-20">
-            <img
-              src="/blog/bg/white-man.png"
-              alt="awdawg"
-              class="w-full rounded-2xl object-cover" />
-          </div>
+          <div class="flex">
+            <div class="flex col-span-2 w-full size-20">
+              <img
+                src="/blog/bg/white-man.png"
+                alt="awdawg"
+                class="w-full rounded-2xl object-cover" />
+            </div>
+
           <div class="flex col-span-4 w-full">
             <h2 class="text-secondary font-semibold">
               ششمین همایش صنعت غذا با رویکرد تجارت محور همراه با صادرات
             </h2>
+          </div>
           </div>
         </div>
       </div>
