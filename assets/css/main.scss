@@ -6,6 +6,9 @@
 .custom-gradient {
   background: linear-gradient(90deg, #f7f9fa 0%, #dce3ec 100%);
 }
+.bg-footer{
+  @apply bg-[#D4DBE3]
+}
 .default-blog-img-height {
   .default-blog-img-height {
     @apply 2xl:h-[284px];
