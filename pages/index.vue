@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-wrap w-full gap-6">
-    <div class="flex w-full flex-wrap container mx-auto">
+  <div class="flex flex-wrap w-full">
+    <div class="flex w-full flex-wrap container mx-auto mb-6">
       <main-blog-hero-item />
       <main-blog-scrollable-items />
     </div>

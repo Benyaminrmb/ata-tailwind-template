@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap w-full p-3 py-12">
+  <div class="flex flex-wrap bg-[#F7F9FA] w-full p-3 py-12 mb-6">
     <div class="flex flex-wrap w-full container relative mx-auto gap-12">
       <div class="flex justify-center w-full">
         <h4 class="font-extrabold text-2xl font-modam">

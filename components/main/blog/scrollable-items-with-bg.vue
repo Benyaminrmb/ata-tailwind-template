@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap w-full bg-gray-700 p-3 py-12">
+  <div class="flex flex-wrap w-full bg-gray-700 p-3 py-12 mb-6">
     <div class="flex flex-wrap w-full container mx-auto gap-12">
       <div class="flex flex-wrap w-full gap-2 items-center justify-between">
         <title-bar color="text-white" icon="loader" title="رویداد های حوزه ورزش و تناسب اندام" />
