@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     },
   },
   features: {
-    noScripts:true,
+    noScripts:false,
     inlineStyles:false,
 
   },
@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss","@nuxtjs/color-mode"],
+  modules: [ '@nuxt/ui'],
   colorMode: {
     preference: 'system', // default theme
     dataValue: 'theme', // activate data-theme in <html> tag

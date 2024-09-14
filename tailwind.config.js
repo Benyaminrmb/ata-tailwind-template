@@ -47,5 +47,12 @@ export default {
                 '2xl': '1496px',
             },
         },
+        extend: {
+            aspectRatio: {
+                auto: 'auto',
+                square: '1 / 1',
+                video: '16 / 9'
+            }
+        }
     },
 }

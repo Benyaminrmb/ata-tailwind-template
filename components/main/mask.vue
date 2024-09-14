@@ -73,7 +73,7 @@ const iconClass = computed(() => {
 
 const iconStyle = computed(() => {
   if (!isFontAwesome.value) {
-    return `-webkit-mask: url(/images/app/${props.icon}) no-repeat center; mask: url(/images/app/${props.icon}) no-repeat center;`
+    return `-webkit-mask: url(/${props.icon}) no-repeat center; mask: url(/${props.icon}) no-repeat center;`
   }
   return ''
 })

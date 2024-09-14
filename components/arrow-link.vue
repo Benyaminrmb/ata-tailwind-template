@@ -1,6 +1,6 @@
 <template>
   <a class="flex gap-3 items-center cursor-pointer">
-    <span class="text-accent text-sm">
+    <span :class="textColor" class="text-sm">
       {{ text }}
     </span>
     <span
@@ -21,5 +21,6 @@ const props = defineProps({
   disabled: {type: Boolean, default: false},
   color: {type: String, default: 'primary-gradient'},
   text: {type: String, default: ''},
+  textColor: {type: String, default: 'text-accent'},
 })
 </script>
